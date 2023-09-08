@@ -1,0 +1,15 @@
+Ice Latte,4500
+Americano,3000
+Cappuccino,4000
+Iced Americano,3500
+Iced Americano,3500
+Iced Americano,3500
+Iced Americano,3500
+Iced Americano,3500
+Espresso,3600
+Ice Latte,4500
+Espresso,3600
+Americano,3000
+Cappuccino,4000
+Espresso,3600
+Ice Latte,4500

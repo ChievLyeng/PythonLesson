@@ -1,0 +1,10 @@
+hello world!
+This is my 1 txt file
+This is my 2 txt file
+This is my 3 txt file
+This is my 4 txt file
+Love of my life, you ' ve hurt me 
+You've broken my heart and now you leave me
+Love of my life, can't you see ? 
+This will append.
+This too.
