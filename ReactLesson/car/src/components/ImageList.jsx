@@ -1,5 +1,5 @@
-function ImageList () {
+export const ImageList = ({images}) => {
     return(
-        <div>ImageList</div>
+        <div>ImageList :{images.length} </div>
     );
-}
+};
