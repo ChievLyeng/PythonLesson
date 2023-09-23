@@ -2,20 +2,12 @@ import {useState} from 'react';
 import  './SearchBar.css';
 
 export const SearchBar = ({onSubmit}) => {
-    const [term,setTerm] = useState('');
-
-    const handleChange = (event) => {
-       setTerm(event.target.value); 
-
-    //    use to replace the smaller case entered string with empty string
-    //    setTerm(event.target.value.replace(/[a-z]/,'')); 
-    }
-
-    const handleFormSubmit = (event) => {
-        event.preventDefault();
-        setTerm(''); //clear state after input
+    const [term, setTerm] = useState('');
+    const handleFormSubmit = (e)=>{
+        e.preventDefault();
         onSubmit(term);
     };
+<<<<<<< HEAD
     
     return(
         <div className='search-bar'>
@@ -26,4 +18,16 @@ export const SearchBar = ({onSubmit}) => {
             </form>
         </div>
     );
+=======
+    const handleChange = (event)=>{
+        setTerm(event.target.value);
+    };
+  return(
+    <div>
+        <form onSubmit={handleFormSubmit}>
+            <input value={term} onChange={handleChange}/>
+        </form>
+    </div>
+  );
+>>>>>>> e352c6f228431e408c5334d7640eb2f1a72bf0be
 }
