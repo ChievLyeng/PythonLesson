@@ -23,7 +23,9 @@ divisor = []
 def findDivisors ( N ) :
     cnt = 0
     sqrtn = int(N ** 0.5)
+    print(sqrtn)
     for i in range(1 , sqrtn + 1) :
+        print(i)
         if N % i == 0 :
             cnt += 2
             divisor.append(i)
