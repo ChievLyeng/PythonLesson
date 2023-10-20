@@ -9,7 +9,8 @@ def collatz(n) :
     
 n = int(input())
 s = collatz(n)
+print(len(s))
 
-print("Len of s :",len(s))
-print("Collatz sequence :",end=" ")
-print(' '.join(map(str,s))) # convert the elements in s to str
+# print("Len of s :",len(s))
+# print("Collatz sequence :",end=" ")
+# print(' '.join(map(str,s))) # convert the elements in s to str
